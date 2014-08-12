@@ -1,0 +1,172 @@
+#header{
+	background: #fff;
+	border-bottom: 1px solid #aaa;
+	height: 48px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	z-index: 984;
+}
+
+#list{
+	float: left;
+	left:0;
+	display: inline-block;
+	height: 46px;
+	position: absolute;
+	top: 0;
+	width: 46px;
+}
+#list span{
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAV0lEQVRIx+3VQQ0AIAwEwWo5Jfg3VUwQQsM0WQHz6VV31+QKAAAAAAAAAOAwIMlK0i8FAADwE+DFAwC4CfCFAAAALLEhA7DE3igAwL+ASQEAAAAAAIxuAySZPrhcy+LMAAAAAElFTkSuQmCC);
+	background-size: contain;
+	height: 24px;
+	left: 11px;
+	position: absolute;
+	top: 11px;
+	width: 24px;
+}
+
+#googleplay{
+	float: left;
+	height: 46px;
+	width: 380px;
+}
+
+#googleplay span{
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 40px;
+	margin-top: 5px;
+	width: 160px;
+	background-image:url(https://ssl.gstatic.com/android/market_images/web/logo_m_play.png);
+}
+
+#more{
+	float: right;
+	right:0;
+	display: inline-block;
+	height: 46px;
+	position: absolute;
+	top: 0;
+	width: 46px;
+}
+
+#more span{
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABSElEQVRYw+3Z0Q2DIBAGYEdwhOafwBEcwREYwRG6gSN0BEfoCIzgCIxAX3hoiCeCgIc5k3syNffBHYLtrLVdy9EJQAACeDAgdAHoASgAKwADwHph3D3VZbiyAgC8iaSpMADm2wEABgA6InE/NIDXLQCXvLmQ/P9sDFUBgeQ3V1KjF4u7RyFeNQGaSEKdaPaZwOsqADe6e7V8ugwOZlAVBbil0uSoYQKxlQaoK6NGlFPS81IBa+qIHSD8xv6UBPhTPmcALCmDEg1w9e9P95gBMPnPLQUYdwB9BsAogIgeaLeEmm/ipyyjNV5kk2wlHruZK7yd/rZ8oIlekjkdKW21VajQoX5OQbD5rEJsUYIINh+23O90LCI74OLbOBrBCpCCYAeIRbAExCDYAs4iWAPOINgDAog2AASijRIiEOlNLH/yCUAAAhBAKH4d6lEJvw9suwAAAABJRU5ErkJggg==);
+	background-size: contain;
+	height: 24px;
+	left: 11px;
+	position: absolute;
+	top: 11px;
+	width: 24px;
+}
+
+#menu{
+
+	margin-top: 15px;
+	text-align: center;
+	width: 100%;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	color: #333;
+font-family: "Roboto",Arial,sans-serif;
+font-size: 13px;
+font-weight: 300;
+line-height: 1.4;
+}
+
+#menu div{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin: 5px;
+	width: 360px;
+	color: #333;
+}
+#menu div div{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin: 5px;
+	width: 150px;
+	color: #333;
+	background-color: #fff;
+border: 1px solid rgba(0,0,0,0.17);
+}
+
+
+
+#contents {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-family: "Roboto",Arial,sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 1.4;
+}
+
+#contetns .books{
+	margin-top: 20px;
+	text-align: center;
+	width: 100%;
+
+}
+
+#contents .books.booksheader{
+	width: 340px;
+	display: inline-block;
+	font-size: 24px;
+	line-height: 28px;
+	margin: 0;
+	min-width: 340px;
+	text-align: left;
+}
+
+#contetns .books.booksheader.title{
+	display: inline-block;
+	white-space: nowrap;
+	color: #333;
+	text-decoration: none;
+}
+
+#contetns .books.booksheader.subtitle{
+	display: block;
+	font-size: 14px;
+	line-height: 16px;
+	font-style: normal;
+	font-weight: 300;
+	padding-bottom: 4px;
+	color:#555;
+}
+
+#contetns .books.booksheader.titlemore{
+	bottom: 7px;
+margin-top: 0;
+top: auto;
+line-height: 30px;
+position: absolute;
+right: 5px;
+}
+
+#contetns .books.bookscontents{
+	height: 340px;
+	margin-left: 0;
+min-width: 345px;
+box-sizing: border-box;
+overflow: hidden;
+position: relative;
+}
+
+#contents .books.bookscontents.booksimage{
+	
+}
+
+
+
+
+
